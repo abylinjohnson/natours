@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Learning node, express and mongoDB ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "author": "Abylin Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
